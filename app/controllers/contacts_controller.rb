@@ -1,5 +1,5 @@
 class ContactsController < ApplicationController
   def user
-    render json: { message: "Hello" }
+    render template: "contacts/index"
   end
 end
